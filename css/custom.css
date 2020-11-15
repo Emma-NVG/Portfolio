@@ -422,6 +422,12 @@ span {
     padding: 0 !important;
 }
 
+@media(min-width: 992px){
+    .pt-md-100{
+        padding-top: 100px !important;
+    }
+}
+
 /*===========Helpers Css============*/
 .heading {
     margin-bottom: 50px;
@@ -1024,11 +1030,15 @@ section.about .about-content .about-button {
 .education .card{
     border-radius: 10px;
     border-color: white;
+    transition:all 0.4s ease 0s;
 }
-.education .card:not(.card-date):hover,.education .card:hover .ed-title{
+.education .card:not(.card-date):hover{
     color: white;
     background-color: #eec165;
     border-color: #eec165;
+}
+.education .card:hover .ed-title{
+    color: white;
 }
 .education .card-body p{
     margin-top:0.4rem;
@@ -1358,6 +1368,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6, s
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
+    display:none;
 }
 
 .testimonials:after {
@@ -1372,6 +1383,11 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6, s
     opacity: .60;
 }
 
+@media(min-width: 992px){
+    .testimonials{
+        display:block;
+    }
+}
 /*============ 11. Contact Section ============*/
 .contact .single-info {
     position: relative;
