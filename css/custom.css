@@ -616,12 +616,22 @@ nav.navbar {
     width: 100%;
     top: 0;
     z-index: 999;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+    background-color: #161e19;
 }
+
+@media(min-width:992px){
+    nav.navbar {
+        background-color: transparent;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
 
 nav.navbar .logo {
     font-size: 22px;
@@ -755,7 +765,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .banner .banner-caption h1, .banner .banner-caption h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 900;
     color: #fff;
 }
@@ -765,6 +775,9 @@ nav.fixed-top .nav-item .nav-link:before {
         font-size: 47px;
         font-weight: 900;
         color: #fff;
+    }
+    .banner .banner-caption p {
+        font-size: 20px;
     }
 }
 
@@ -1033,12 +1046,19 @@ section.about .about-content .about-button {
 }
 .education .card-date{
     background-color: white;
-    padding: 15px 28px;
+    padding: 15px 5px;
     border: 1px solid #eec165;
     border-radius: 40px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 800;
     max-height: 48px;
+}
+
+@media (min-width: 992px){
+    .education .card-date{
+        font-size: 15px;
+        padding: 15px 28px;
+    }
 }
 
 
@@ -1104,6 +1124,21 @@ section.about .about-content .about-button {
     background-color: transparent;
     border: none;
 }
+
+/*@media (max-width: 992px) {*/
+/*    .btn-prev, .btn-next {*/
+/*        transform: rotate(-90deg);*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*    }*/
+
+/*    .btn-next {*/
+/*        transform: rotate(-90deg);*/
+/*        position: absolute;*/
+/*        left: 50%;*/
+/*    }*/
+/*}*/
+
 
 /*============ 6. Skill Section ============*/
 section.services .service-item {
