@@ -755,9 +755,33 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .banner .banner-caption h1, .banner .banner-caption h2 {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 900;
     color: #fff;
+}
+
+@media (min-width: 576px) {
+    .banner .banner-caption h1, .banner .banner-caption h2 {
+        font-size: 47px;
+        font-weight: 900;
+        color: #fff;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner .banner-caption h1, .banner .banner-caption h2 {
+        font-size: 57px;
+        font-weight: 900;
+        color: #fff;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner .banner-caption h1, .banner .banner-caption h2 {
+        font-size: 70px;
+        font-weight: 900;
+        color: #fff;
+    }
 }
 
 .banner .banner-caption p {
