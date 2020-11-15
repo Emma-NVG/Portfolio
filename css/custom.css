@@ -874,7 +874,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 /*===Creative Page===*/
 #home-svg {
-    height: 150px;
+    height: 160px;
     width: 100vw;
     position: absolute;
     bottom: 0px;
@@ -1263,6 +1263,32 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6, s
     transform: translateY(0);
     opacity: 1;
 }
+
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 50%;
+    }
+}
+
+.modal-content .close-modal {
+    color:white;
+    background-color: #eec165;
+    border-color:#eec165;
+}
+
+.portfolio-modal .modal-dialog .modal-content .modal-body{
+    margin:4% 4%;
+}
+
+.portfolio-modal .modal-dialog .modal-content .modal-body h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-body .main-btn a{
+    vertical-align: super;
+}
+
 
 /*============ 10. Testimonial Section ============*/
 .testimonials {
