@@ -1,6 +1,5 @@
 /*==================================
         Table of Content
-
         1. Body Css
         2. Preloader
         3. Navbar
@@ -13,8 +12,7 @@
         10. Testimonial Section
         11. Contact Form Section
         12. Footer
-        13. Mobile Responsive
-
+        13. Legal Notice
 ==================================*/
 /*============ 1. Body Css ============*/
 * {
@@ -1560,4 +1558,20 @@ footer hr {
 footer .copy {
     font-size: 14px;
     color: #aaa;
+}
+
+/*============ 13. Legal Notice  ============*/
+
+.legal-notice-navbar .nav-link, .legal-notice-navbar .logo{
+    color: black;
+}
+.legal-notice-navbar .nav-link.active:before{
+    visibility: hidden!important;
+}
+.legal-notice-navbar{
+    background-color: white;
+}
+.legal-notice-body{
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
