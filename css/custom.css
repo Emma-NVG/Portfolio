@@ -1321,7 +1321,7 @@ section.portfolio .portfolio-items .item .item-content:before {
     right: 10px;
     bottom: 10px;
     left: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(238, 193, 101, 0.9);
     opacity: 0;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
@@ -1346,6 +1346,7 @@ section.portfolio .portfolio-items .item .item-content .item-overlay {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center;
+    cursor:pointer;
 }
 
 section.portfolio .portfolio-items .item .item-content .item-overlay h6 {
@@ -1360,9 +1361,10 @@ section.portfolio .portfolio-items .item .item-content .item-overlay h6 {
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 1px;
+    color:white;
 }
 
-section.portfolio .portfolio-items .item .item-content .item-overlay .icons .icon {
+section.portfolio .portfolio-items .item .item-content .item-overlay .icon {
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
@@ -1372,25 +1374,9 @@ section.portfolio .portfolio-items .item .item-content .item-overlay .icons .ico
     opacity: 0;
 }
 
-section.portfolio .portfolio-items .item .item-content .item-overlay .icons .icon a {
-    display: inline-block;
-    -webkit-transition: .5s all ease;
-    -o-transition: .5s all ease;
-    transition: .5s all ease;
-    height: 40px;
-    width: 40px;
-    margin-top: 30px;
-    background-color: #fff;
-    font-size: 22px;
-    line-height: 40px;
-    color: #222;
-    -webkit-border-radius: 20%;
-    border-radius: 20%;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
-}
 
-section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6, section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icons .icon {
+section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6,
+section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -1399,7 +1385,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6, s
 
 @media (min-width: 576px){
     .modal-dialog{
-        max-width: 50%;
+        max-width: 60%;
     }
 }
 
@@ -1420,6 +1406,13 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay h6, s
 
 .modal-body .main-btn a{
     vertical-align: super;
+}
+
+.eye{
+    background: url("../resources/pictures/portfolio/eye.gif") no-repeat;
+    width: 45px;
+    height: 45px;
+    background-size: 45px;
 }
 
 
