@@ -1312,6 +1312,7 @@ section.portfolio .portfolio-items .item {
 section.portfolio .portfolio-items .item .item-content {
     position: relative;
     overflow: hidden;
+    box-shadow: 1px 1px 20px 0px lightgrey;
 }
 
 section.portfolio .portfolio-items .item .item-content:before {
