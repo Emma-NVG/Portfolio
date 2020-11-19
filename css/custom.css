@@ -1518,16 +1518,10 @@ footer .copy {
 
 /*============ 13. Legal Notice  ============*/
 
-.legal-notice-navbar .nav-link, .legal-notice-navbar .logo{
-    color: black;
-}
-.legal-notice-navbar .nav-link.active:before{
-    visibility: hidden!important;
-}
-.legal-notice-navbar{
-    background-color: white;
-}
 .legal-notice-body{
-    padding-top: 150px;
     padding-bottom: 50px;
+}
+
+.legal-notice-body .modal-dialog .main-btn{
+    padding-left: 1rem;
 }
