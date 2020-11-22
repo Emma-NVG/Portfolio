@@ -14,6 +14,7 @@
         12. Footer
         13. Legal Notice
 ==================================*/
+
 /*============ 1. Body Css ============*/
 * {
     -webkit-box-sizing: border-box;
@@ -982,7 +983,7 @@ section.about .about-content .about-heading h2 {
 }
 
 section.about .about-content .about-heading span {
-    font-family: "Raleway", san-serif;
+    font-family: "Raleway", sans-serif;
     color: #222;
     font-size: 19px;
 }
@@ -1107,6 +1108,36 @@ section.about .about-content .about-button {
 }
 .carousel-caption-details p a{
     text-decoration: underline !important;
+}
+
+@media (max-width: 992px) {
+    .carousel, .carousel-inner{
+        height: 24rem;
+    }
+    .carousel-item img{
+        height: 100%;
+    }
+    .carousel-caption{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        bottom:auto;
+        text-align: left;
+    }
+    .carousel-caption-details h5,
+    .carousel-caption-details h6{
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+    .carousel-caption-details ul li{
+        list-style: circle !important;
+        font-size: 0.8rem;
+    }
+    .carousel-img-opacity {
+        background-color: rgb(32, 32, 32, 0.3);
+    }
+
 }
 
 /*============ 6. Skill Section ============*/
@@ -1527,11 +1558,6 @@ footer .copy {
 }
 
 /*============ 13. Legal Notice  ============*/
-
-.legal-notice-body{
-    padding-bottom: 50px;
-
-}
 
 .legal-notice-body .modal-dialog .main-btn{
     padding-left: 1rem;
