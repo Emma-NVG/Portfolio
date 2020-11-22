@@ -1173,20 +1173,27 @@ section.services .service-item h4 {
 .flip-front hr {
     width: 50%;
     height: 2px;
-    margin: auto;
+    margin: auto auto 6px auto;
     background-color: #eec165;
     border: none;
-    margin-bottom: 6px;
+}
+
+.service-item:hover .flip-front {
+    visibility: hidden;
+}
+.service-item:hover .flip-front .icon {
+    visibility: visible;
 }
 
 .flip-back {
-    background-color: #eec165;
     color: white;
     visibility: hidden;
     padding-top: 21%;
+    transition: .6s background-color ease;
 }
 
 .service-item:hover .flip-back {
+    background-color: #eec165;
     visibility: visible;
 }
 
@@ -1523,8 +1530,14 @@ footer .copy {
 
 .legal-notice-body{
     padding-bottom: 50px;
+
 }
 
 .legal-notice-body .modal-dialog .main-btn{
     padding-left: 1rem;
+}
+
+.legal-notice-body .modal-dialog .main-btn{
+    width: 15%;
+    margin: 2%;
 }
