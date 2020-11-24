@@ -421,19 +421,20 @@ span {
     padding: 0 !important;
 }
 
-@media(min-width: 992px){
+@media (min-width: 992px) {
     /*custom padding top*/
-    .pt-md-100{
+    .pt-md-100 {
         padding-top: 100px !important;
     }
+
     /*custom padding bottom*/
-    .pb-md-100{
+    .pb-md-100 {
         padding-bottom: 100px !important;
     }
 }
 
 /*Custom text size*/
-.text-16{
+.text-16 {
     font-size: 16px !important;
 }
 
@@ -639,7 +640,7 @@ nav.navbar {
     background-color: #161e19;
 }
 
-@media(min-width:992px){
+@media (min-width: 992px) {
     nav.navbar {
         background-color: transparent;
         padding-top: 30px;
@@ -791,6 +792,7 @@ nav.fixed-top .nav-item .nav-link:before {
         font-weight: 900;
         color: #fff;
     }
+
     .banner .banner-caption p {
         font-size: 20px;
     }
@@ -806,7 +808,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 @media (min-width: 1200px) {
     .banner .banner-caption h1, .banner .banner-caption h2 {
-        font-size: 70px;
+        font-size: 60px;
         font-weight: 900;
         color: #fff;
     }
@@ -1036,34 +1038,34 @@ section.about .about-content .about-button {
 }
 
 /*============ 6. Education Section ============*/
-.education .card{
+.education .card {
     border-radius: 10px;
     border-color: white;
-    transition:all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
-.education .card:not(.card-date):hover{
+.education .card:not(.card-date):hover {
     color: white;
     background-color: #eec165;
     border-color: #eec165;
 }
-.education .card:hover .ed-title{
+.education .card:hover .ed-title {
     color: white;
 }
-.education .card-body p{
-    margin-top:0.4rem;
+.education .card-body p {
+    margin-top: 0.4rem;
 }
-.education .header{
+.education .header {
     display: flex;
     justify-content: space-between;
 }
-.education .ed-title{
+.education .ed-title {
     font-weight: bold;
-    margin:0.1rem;
+    margin: 0.1rem;
 }
-.education .header p{
+.education .header p {
     font-size: 0.9rem;
 }
-.education .card-date{
+.education .card-date {
     background-color: white;
     padding: 15px 5px;
     border: 1px solid #eec165;
@@ -1073,8 +1075,8 @@ section.about .about-content .about-button {
     max-height: 48px;
 }
 
-@media (min-width: 992px){
-    .education .card-date{
+@media (min-width: 992px) {
+    .education .card-date {
         font-size: 15px;
         padding: 15px 28px;
     }
@@ -1099,41 +1101,46 @@ section.about .about-content .about-button {
     padding: 2%;
 }
 .carousel-caption-details h5,
-.carousel-caption-details h6{
+.carousel-caption-details h6 {
     font-weight: 700;
     color: white;
 }
-.carousel-caption-details p{
+.carousel-caption-details p {
     color: #d3d3d3;
 }
-.carousel-caption-details p a{
+.carousel-caption-details p a {
     text-decoration: underline !important;
 }
 
 @media (max-width: 992px) {
-    .carousel, .carousel-inner{
+    .carousel, .carousel-inner {
         height: 24rem;
     }
-    .carousel-item img{
+
+    .carousel-item img {
         height: 100%;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         padding-top: 0px;
         padding-bottom: 0px;
-        bottom:auto;
+        bottom: auto;
         text-align: left;
     }
+
     .carousel-caption-details h5,
-    .carousel-caption-details h6{
+    .carousel-caption-details h6 {
         font-weight: 700;
         font-size: 0.8rem;
         color: white;
         text-align: center;
     }
-    .carousel-caption-details ul li{
+
+    .carousel-caption-details ul li {
         list-style: circle !important;
         font-size: 0.8rem;
     }
+
     .carousel-img-opacity {
         background-color: rgb(32, 32, 32, 0.3);
     }
@@ -1146,7 +1153,7 @@ section.services .service-item {
     height: 21.5rem;
     background-color: white;
     transition: all 0.4s cubic-bezier(0.6, -0.28, 0.74, 0.05) 0s;
-    box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
+    box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.06);
 }
 
 section.services .service-item .icon {
@@ -1190,7 +1197,7 @@ section.services .service-item h4 {
     height: 100%;
 }
 
-.flip-front p{
+.flip-front p {
     font-size: 15px;
     text-align: justify;
 }
@@ -1198,7 +1205,7 @@ section.services .service-item h4 {
 .flip-front {
     color: grey;
     text-align: center;
-    padding:10%;
+    padding: 10%;
 }
 
 .flip-front hr {
@@ -1209,11 +1216,12 @@ section.services .service-item h4 {
     border: none;
 }
 
-.service-item:hover .flip-front {
+.service-item .flip-front button {
     visibility: hidden;
 }
-.service-item:hover .flip-front .icon {
-    visibility: visible;
+
+.service-item:hover .flip-front {
+    visibility: hidden;
 }
 
 .flip-back {
@@ -1228,31 +1236,31 @@ section.services .service-item h4 {
     visibility: visible;
 }
 
-.flip-back table{
-    margin:10%;
+.flip-back table {
+    margin: 10%;
 }
 
-.flip-back td{
-    width:40%;
+.flip-back td {
+    width: 40%;
     text-align: left;
 }
 
-.flip-back tr{
-    margin:10%;
-    height:45px;
+.flip-back tr {
+    margin: 10%;
+    height: 45px;
 }
 
-.flip-back .label-skill{
+.flip-back .label-skill {
     font-weight: 600;
 }
 
-.flip-progress{
+.flip-progress {
     border: solid white 1px;
     border-radius: 30px;
     text-align: center;
 }
 
-.flip-back .lang-level{
+.flip-back .lang-level {
     width: 56%;
     text-align: center;
     border: solid white 1px;
@@ -1262,9 +1270,10 @@ section.services .service-item h4 {
     font-weight: 600;
 }
 
-.flip-back .lang-details{
+.flip-back .lang-details {
     font-size: 14px;
 }
+
 
 /*============ 7. Skill Banner Section ============*/
 .skill-icon {
@@ -1346,11 +1355,12 @@ section.portfolio .portfolio-items .item .item-content .item-overlay {
     position: absolute;
     width: 100%;
     top: 50%;
+    left:0%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 section.portfolio .portfolio-items .item .item-content .item-overlay h6 {
@@ -1365,7 +1375,7 @@ section.portfolio .portfolio-items .item .item-content .item-overlay h6 {
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 1px;
-    color:white;
+    color: white;
 }
 
 section.portfolio .portfolio-items .item .item-content .item-overlay .icon {
@@ -1387,41 +1397,40 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     opacity: 1;
 }
 
-@media (min-width: 576px){
-    .modal-dialog{
+@media (min-width: 576px) {
+    .modal-dialog {
         max-width: 60%;
     }
 }
 
 .modal-content .close-modal {
-    color:white;
+    color: white;
     background-color: #eec165;
-    border-color:#eec165;
+    border-color: #eec165;
 }
 
-.portfolio-modal .modal-dialog .modal-content .modal-body{
-    margin:4% 4%;
+.portfolio-modal .modal-dialog .modal-content .modal-body {
+    margin: 4% 4%;
 }
 
-.portfolio-modal .modal-dialog .modal-content .modal-body h2{
+.portfolio-modal .modal-dialog .modal-content .modal-body h2 {
     text-align: center;
     font-weight: bold;
 }
 
-.modal-body .main-btn a{
+.modal-body .main-btn a {
     vertical-align: super;
 }
 
-.eye{
+.eye {
     background: url("../resources/pictures/portfolio/eye.gif") no-repeat;
     width: 45px;
     height: 45px;
     background-size: 45px;
 }
 
-
 /*============ 10. Testimonial Section ============*/
-.testimonials {
+.parallax-banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1429,10 +1438,10 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
-    display:none;
+    display: none;
 }
 
-.testimonials:after {
+.parallax-banner:after {
     content: " ";
     position: absolute;
     top: 0;
@@ -1444,9 +1453,9 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     opacity: .60;
 }
 
-@media(min-width: 992px){
-    .testimonials{
-        display:block;
+@media (min-width: 992px) {
+    .parallax-banner {
+        display: block;
     }
 }
 /*============ 11. Contact Section ============*/
@@ -1527,9 +1536,9 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     border-color: #222;
 }
 
-.contact .contact-social li a:hover{
+.contact .contact-social li a:hover {
     background-color: white;
-    color:black;
+    color: black;
 }
 
 /*============ 12. Footer  ============*/
@@ -1559,11 +1568,11 @@ footer .copy {
 
 /*============ 13. Legal Notice  ============*/
 
-.legal-notice-body .modal-dialog .main-btn{
+.legal-notice-body .modal-dialog .main-btn {
     padding-left: 1rem;
 }
 
-.legal-notice-body .modal-dialog .main-btn{
+.legal-notice-body .modal-dialog .main-btn {
     width: 15%;
     margin: 2%;
 }
