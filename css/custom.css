@@ -9,7 +9,7 @@
         7. Experience Section
         8. Skill Section
         9. Portfolio Section
-        10. Testimonial Section
+        10. Parallax Banner Section
         11. Contact Form Section
         12. Footer
         13. Legal Notice
@@ -47,7 +47,7 @@ a:focus {
 }
 
 body {
-    font-family: "Raleway", san-serif;
+    font-family: "Raleway", sans-serif;
     position: relative;
     font-size: 16px;
     line-height: 1.65;
@@ -244,7 +244,7 @@ span {
 }
 
 .m-0 {
-    margin: 0px !important;
+    margin: 0 !important;
 }
 
 /* Custom Padding top */
@@ -554,7 +554,7 @@ blockquote {
 }
 
 .preloader.loaded:before, .preloader.loaded:after {
-    height: 0%;
+    height: 0;
 }
 
 .preloader .loader {
@@ -719,8 +719,8 @@ nav.fixed-top {
     padding-top: 13px;
     padding-bottom: 13px;
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.1);
 }
 
 nav.fixed-top .logo {
@@ -816,7 +816,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .banner .banner-caption p {
     font-size: 24px;
-    font-family: "Raleway", san-serif;
+    font-family: "Raleway", sans-serif;
     color: #eee;
 }
 
@@ -931,7 +931,7 @@ nav.fixed-top .nav-item .nav-link:before {
     height: 160px;
     width: 100vw;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     z-index: 3;
 }
@@ -1090,7 +1090,7 @@ section.about .about-content .about-button {
 }
 
 .carousel-img-opacity {
-    background-color: rgb(40, 40, 40, 0.60);
+    background-color: rgba(40, 40, 40, 0.60);
     width: 100%;
     height: 600px;
     position: absolute;
@@ -1122,8 +1122,8 @@ section.about .about-content .about-button {
     }
 
     .carousel-caption {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
         bottom: auto;
         text-align: left;
     }
@@ -1142,7 +1142,7 @@ section.about .about-content .about-button {
     }
 
     .carousel-img-opacity {
-        background-color: rgb(32, 32, 32, 0.3);
+        background-color: rgba(32, 32, 32, 0.3);
     }
 
 }
@@ -1170,7 +1170,7 @@ section.services .service-item .icon {
     color: white;
     position: absolute;
     width: 100%;
-    left: 0%;
+    left: 0;
 }
 
 section.services .service-item h4 {
@@ -1223,6 +1223,9 @@ section.services .service-item h4 {
 .service-item:hover .flip-front {
     visibility: hidden;
 }
+.service-item:hover .flip-front .icon {
+    visibility: visible;
+}
 
 .flip-back {
     color: white;
@@ -1274,7 +1277,6 @@ section.services .service-item h4 {
     font-size: 14px;
 }
 
-
 /*============ 7. Skill Banner Section ============*/
 .skill-icon {
     margin-right: auto;
@@ -1293,7 +1295,7 @@ section.portfolio .portfolio-filter ul li {
     margin-right: 20px;
     color: #222;
     position: relative;
-    font-family: "Raleway", san-serif;
+    font-family: "Raleway", sans-serif;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -1324,7 +1326,7 @@ section.portfolio .portfolio-items .item {
 section.portfolio .portfolio-items .item .item-content {
     position: relative;
     overflow: hidden;
-    box-shadow: 1px 1px 20px 0px lightgrey;
+    box-shadow: 1px 1px 20px 0 lightgrey;
 }
 
 section.portfolio .portfolio-items .item .item-content:before {
@@ -1355,7 +1357,7 @@ section.portfolio .portfolio-items .item .item-content .item-overlay {
     position: absolute;
     width: 100%;
     top: 50%;
-    left:0%;
+    left: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1429,7 +1431,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     background-size: 45px;
 }
 
-/*============ 10. Testimonial Section ============*/
+/*============ 10. Parallax Banner Section ============*/
 .parallax-banner {
     -webkit-background-size: cover;
     background-size: cover;
