@@ -35,13 +35,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122650090-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
-
         gtag('config', 'UA-122650090-1');
     </script>
 
@@ -143,8 +140,8 @@
                         <span>Etudiante en deuxième année de DUT informatique</span>
                     </div>
                     <p>Je suis <b>Emma Nguyen Van Giau </b>, j'ai 21 ans. Passionnée de ski et de voyages, curieuse et
-                        autodidacte je suis toujours motivée pour apprendre et découvrir de nouvelles choses.</p>
-                    <p>Je me suis découvert un intérêt particulier pour la programmation à la fin de mes deux années de
+                        autodidacte je suis toujours motivée pour apprendre et découvrir de nouvelles choses.<br><br>
+                        Je me suis découvert un intérêt particulier pour la programmation à la fin de mes deux années de
                         prépa-intégrée et me suis donc orientée vers un DUT informatique.<br> Je souhaiterais
                         approfondir mes connaissances et continuer mes études en intégrant une école d'ingénieur à la
                         fin de mon DUT.</p>
@@ -158,7 +155,6 @@
                                     class="fab fa-gitlab"></i></a>
                             <a href="https://www.linkedin.com/in/emma-nvg" target="_blank" class="btn-social"><i
                                     class="fab fa-linkedin"></i></a>
-                            <a href="mailto:emma.nguyenvangiau@gmail.com"><i class="fas fa-envelope"></i></a>
                         </div>
                         <span class="about-button">
                             <a class="main-btn" href="resources/documents/CV.pdf">Télécharger CV</a>
@@ -495,7 +491,7 @@
                                         <div class="flip-progress">
                                             <span><i class="fas fa-circle fa-1x"></i></span>
                                             <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
+                                            <span><i class="fas fa-circle fa-1x"></i></span>
                                             <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
                                             <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
                                         </div>
@@ -656,19 +652,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="label-skill">Github</td>
-                                    <td>
-                                        <div class="flip-progress">
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="label-skill">Gitlab</td>
+                                    <td class="label-skill">Git</td>
                                     <td>
                                         <div class="flip-progress">
                                             <span><i class="fas fa-circle fa-1x"></i></span>
@@ -769,18 +753,6 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="label-skill">Atom</td>
-                                    <td>
-                                        <div class="flip-progress">
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                            <span><i class="fas fa-circle fa-1x"></i></span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
                                     <td class="label-skill">Eclipse</td>
                                     <td>
                                         <div class="flip-progress">
@@ -800,6 +772,18 @@
                                             <span><i class="fas fa-circle fa-1x"></i></span>
                                             <span><i class="fas fa-circle fa-1x"></i></span>
                                             <span><i class="fas fa-circle fa-1x"></i></span>
+                                            <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="label-skill">Android Studio</td>
+                                    <td>
+                                        <div class="flip-progress">
+                                            <span><i class="fas fa-circle fa-1x"></i></span>
+                                            <span><i class="fas fa-circle fa-1x"></i></span>
+                                            <span><i class="fas fa-circle fa-1x"></i></span>
+                                            <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
                                             <span class="invisible"><i class="fas fa-circle fa-1x"></i></span>
                                         </div>
                                     </td>
@@ -847,7 +831,7 @@
                     <ul>
                         <li class="sel-item" data-filter="*">Tout</li>
                         <li data-filter=".web">Web</li>
-                        <li data-filter=".logiciel">Logiciel</li>
+                        <li data-filter=".logiciel">Application</li>
                     </ul>
                 </div>
             </div>
@@ -904,11 +888,31 @@
                 </div>
             </div>
             <!--Portfolio Item-->
-            <div class="col-lg-4 col-md-6 item web logiciel">
+            <div class="col-lg-4 col-md-6 item web">
                 <div class="item-content">
                     <img src="resources/pictures/portfolio/covoit.jpg" alt="">
                     <a class="item-overlay" data-toggle="modal" href="#modalCovoit">
                         <h6>Covoit IUT</h6>
+                        <span class="icon link eye"></span>
+                    </a>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item web">
+                <div class="item-content">
+                    <img src="resources/pictures/portfolio/A_Venir.jpg" alt="">
+                    <a class="item-overlay" data-toggle="modal" href="#modalVip">
+                        <h6>Vip</h6>
+                        <span class="icon link eye"></span>
+                    </a>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item web">
+                <div class="item-content">
+                    <img src="resources/pictures/portfolio/A_Venir.jpg" alt="">
+                    <a class="item-overlay" data-toggle="modal" href="#modalEcowave">
+                        <h6>EcoWave Nuit de l'Info</h6>
                         <span class="icon link eye"></span>
                     </a>
                 </div>
@@ -957,7 +961,7 @@
                         <div class="col-md-4 form-group">
                             <!--phone-->
                             <input type="tel" class="form-control con-validate" name="phone" id="phone"
-                                   placeholder="Telephone"
+                                   placeholder="Téléphone"
                                    data-validation-required-message="Veuillez entrer votre numéro de téléphone.">
                         </div>
                         <div class="col-md-10 form-group mt-5">
@@ -980,8 +984,6 @@
                 <ul class="contact-social col-12 d-flex mt-100 col-md-1 d-md-inline-block">
                     <li class="mb-4"><a class="btn btn-dark mx-2" href="https://github.com/Emma-NVG" target="_blank"><i
                             class="fab fa-github"></i></a></li>
-                    <li class="mb-4"><a class="btn btn-dark mx-2" href="mailto:emma.nguyenvangiau@gmail.com"><i
-                            class="fas fa-envelope"></i></a></li>
                     <li class="mb-4"><a class="btn btn-dark mx-2" href="https://www.linkedin.com/in/emma-nvg"
                                         target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
@@ -1531,6 +1533,107 @@
         </div>
     </div>
 </div>
+<!-- Modal 7-->
+<div class="portfolio-modal modal fade" id="modalVip" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button class="btn close-modal" data-dismiss="modal" type="button">
+                <i class="fas fa-times mr-1"></i>
+                Close Project
+            </button>
+            <div class="modal-body">
+                <h2>Vip</h2>
+                <div class="row">
+                    <div class="col-12 m-auto">
+                        <h4>Détail du projet</h4>
+                        <p class="text-justify">
+                            Le projet consiste à réaliser une application web pour un client (entreprise Thérasoft) qui
+                            permettrait de gérer le transfert sécurisé de dossier médicaux entre praticiens et patients.
+                            Ce projet est réalisé en groupe de 5 personnes divisées en deux fonctions : développeur
+                            back-end et front-end.
+                            En tant que chef de projet et développeur front-end mon travail consiste à organiser le
+                            travail et à designer la partie front-end de l'application. L'application est développée
+                            sous angular et bootstrap pour le front end et sous nodejs, express et mySQL pour le
+                            back-end.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <img class="img-fluid d-block mx-auto modal-img" src="resources/pictures/portfolio/A_Venir.jpg"
+                             alt=""/>
+                    </div>
+                    <div class="col-12 col-md-5 m-auto">
+                        <p><span class="font-weight-bold">Période: </span>Octobre 2020</p>
+                        <p><span class="font-weight-bold">Statut: </span>En cours</p>
+                        <p><span class="font-weight-bold">Collaborateurs: </span> Jean LAURENT, Benjamin PELAUDEIX,
+                            Mattéo LADRAT, Valentin ROUGIER</p>
+                        <p><span class="font-weight-bold">Contexte: </span> DUT Informatique 2ème année, projet tutoré
+                        </p>
+                        <p><span class="font-weight-bold">Technologies: </span><br></p>
+                        <span class="mr-3"><i class="fab fa-js-square fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-bootstrap fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-angular fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-node fa-2x"></i></span>
+                        <span class="mr-3"><i class="fas fa-database fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-gitlab fa-2x"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 8-->
+<div class="portfolio-modal modal fade" id="modalEcowave" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button class="btn close-modal" data-dismiss="modal" type="button">
+                <i class="fas fa-times mr-1"></i>
+                Close Project
+            </button>
+            <div class="modal-body">
+                <h2>Ecowave</h2>
+                <div class="row">
+                    <div class="col-12 m-auto">
+                        <h4>Détail du projet</h4>
+                        <p class="text-justify">
+                            Le projet consiste à réaliser une application web pour un client (entreprise Thérasoft) qui
+                            permettrait de gérer le transfert sécurisé de dossier médicaux entre praticiens et patients.
+                            Ce projet est réalisé en groupe de 5 personnes divisées en deux fonctions : développeur
+                            back-end et front-end.
+                            En tant que chef de projet et développeur front-end mon travail consiste à organiser le
+                            travail et à designer la partie front-end de l'application. L'application est développée
+                            sous angular et bootstrap pour le front end et sous nodejs, express et mySQL pour le
+                            back-end.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <img class="img-fluid d-block mx-auto modal-img" src="resources/pictures/portfolio/A_Venir.jpg"
+                             alt=""/>
+                    </div>
+                    <div class="col-12 col-md-5 m-auto">
+                        <p><span class="font-weight-bold">Période: </span>Octobre 2020</p>
+                        <p><span class="font-weight-bold">Statut: </span>En cours</p>
+                        <p><span class="font-weight-bold">Collaborateurs: </span> Jean LAURENT, Benjamin PELAUDEIX,
+                            Mattéo LADRAT, Valentin ROUGIER</p>
+                        <p><span class="font-weight-bold">Contexte: </span> DUT Informatique 2ème année, projet tutoré
+                        </p>
+                        <p><span class="font-weight-bold">Technologies: </span><br></p>
+                        <span class="mr-3"><i class="fab fa-js-square fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-bootstrap fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-angular fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-node fa-2x"></i></span>
+                        <span class="mr-3"><i class="fas fa-database fa-2x"></i></span>
+                        <span class="mr-3"><i class="fab fa-gitlab fa-2x"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!--Jquery js-->
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
