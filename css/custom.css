@@ -1285,6 +1285,7 @@ section.services .service-item h4 {
 }
 
 /*============ 8. Portfolio Section ============*/
+/*Project filter*/
 section.portfolio .portfolio-filter {
     margin-bottom: 40px;
 }
@@ -1317,6 +1318,12 @@ section.portfolio .portfolio-filter ul li:before {
 
 section.portfolio .portfolio-filter ul li.sel-item {
     font-weight: 600;
+}
+
+/*Project grid*/
+section.portfolio .portfolio-items .item .item-content img{
+    min-height:150px;
+    max-height:160px;
 }
 
 section.portfolio .portfolio-items .item {
@@ -1577,4 +1584,22 @@ footer .copy {
 .legal-notice-body .modal-dialog .main-btn {
     width: 15%;
     margin: 2%;
+}
+
+/*============ 14. Scroll up button  ============*/
+#scrollUp{
+    position: fixed;
+    bottom : 3%;
+    right: 3%;
+    background-color: #eec165;
+    border-radius: 2px;
+}
+#scrollUp span{
+    width: 100%;
+    text-align: center;
+    padding: 4px 10px;
+}
+
+#scrollUp span svg{
+    vertical-align: middle;
 }
