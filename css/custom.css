@@ -1152,148 +1152,91 @@ section.about .about-content .about-button {
 }
 
 /*============ 6. Skill Section ============*/
-section.services .service-item {
-    margin-bottom: 50px;
-    height: 21.5rem;
-    background-color: white;
-    transition: all 0.4s cubic-bezier(0.6, -0.28, 0.74, 0.05) 0s;
-    box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.06);
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
 }
 
-section.services .service-item .icon {
-    color: #222;
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    line-height: 78px;
-    font-size: 30px;
-}
-
-.service-item:hover span.icon {
-    z-index: 2;
-    color: white;
-    position: absolute;
-    width: 100%;
-    left: 0;
-}
-
-section.services .service-item h4 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-
-/*Flip*/
-.flip {
-    background-color: transparent;
-    border: 1px solid #f1f1f1;
-}
-
-.flip-inner {
-    position: relative;
-    width: 100%;
+.skill-panel{
+    display: grid;
     height: 100%;
 }
 
-.flip-front, .flip-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.skill-panel h4 {
+    margin-bottom: 6%;
 }
 
-.flip-front p {
-    font-size: 15px;
-    text-align: justify;
+.skill-panel:nth-child(2){
+    margin-top: 5%;
 }
 
-.flip-front {
-    color: grey;
-    text-align: center;
-    padding: 10%;
+.skill-panel table {
+    margin: 0% 10%;
 }
 
-.flip-front hr {
-    width: 50%;
-    height: 2px;
-    margin: auto auto 6px auto;
-    background-color: #eec165;
-    border: none;
-}
-
-.service-item .flip-front button {
-    visibility: hidden;
-}
-
-.service-item:hover .flip-front {
-    visibility: hidden;
-}
-.service-item:hover .flip-front .icon {
-    visibility: visible;
-}
-
-.flip-back {
-    color: white;
-    visibility: hidden;
-    padding-top: 21%;
-    transition: .6s background-color ease;
-}
-
-.service-item:hover .flip-back {
-    background-color: #eec165;
-    visibility: visible;
-}
-
-.flip-back table {
-    margin: 10%;
-}
-
-.flip-back td {
+.skill-panel td {
     width: 40%;
     text-align: left;
 }
 
-.flip-back tr {
+.skill-panel tr {
     margin: 10%;
-    height: 45px;
+    height: 45px;/*TODO check taille*/
 }
 
-.flip-back .label-skill {
-    font-weight: 600;
+.skill-panel td img {
+    width: 20%;
+    margin-right: 10%;
+    float: left;
 }
 
-.flip-progress {
-    border: solid white 1px;
+.skill-panel td img + span {
+    width: min-content;
+}
+
+.progress-item {
+    border: solid #eec165 1px;
     border-radius: 30px;
-    text-align: center;
+    width: fit-content;
+    padding: 0px 10px;
+    margin-left: auto;
 }
 
-.flip-back .lang-level {
-    width: 56%;
-    text-align: center;
-    border: solid white 1px;
-    border-radius: 50%;
-    background-color: white;
+.progress-item span {
     color: #eec165;
-    font-weight: 600;
 }
 
-.flip-back .lang-details {
-    font-size: 14px;
+.lang-detail{
+    font-size: 0.80em;
+    font-style: italic;
+    margin: auto;
+}
+.lang-label{
+    font-size: 0.80em;
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: #eec165 ;
+    border: solid #eec165 1px;
+    border-radius: 30px;
 }
 
-/*============ 7. Skill Banner Section ============*/
-
-.values{
-    width:20%;
-}
-.values:not(:last-child){
-    margin-right: 6%;
-}
+/*============ 7. Soft skill Banner Section ============*/
 
 .values, .values h3{
     color: #b7b7b7;
     z-index: 3;
     text-align: center;
+}
+
+.values{
+    width:20%;
+}
+
+.values:not(:last-child){
+    margin-right: 6%;
 }
 
 .values p {
