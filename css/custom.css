@@ -1214,16 +1214,14 @@ section.about .about-content .about-button {
 
 .progress-item span {
     color: #eec165;
-    width:1em;
 }
 
-@media only screen and (max-device-width : 1024px){
+@media (max-width : 1200px){
     .progress-item span {
-        width:0.7em;
+        font-size: 0.9em;
+        width: 0.7em;
     }
 }
-
-
 
 .lang-detail{
     font-size: 0.80em;
@@ -1242,7 +1240,7 @@ section.about .about-content .about-button {
 
 /*============ 7. Soft skill Banner Section ============*/
 
-.values, .values h3{
+.values, .values h4{
     color: #b7b7b7;
     z-index: 3;
     text-align: center;
@@ -1254,6 +1252,10 @@ section.about .about-content .about-button {
 
 .values:not(:last-child){
     margin-right: 6%;
+}
+
+.values h4{
+    margin-top: 5%;
 }
 
 .values p {
