@@ -788,7 +788,6 @@ nav.fixed-top .nav-item .nav-link:before {
     position: absolute;
     color: #fff;
     z-index: 11;
-    width: 100%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
