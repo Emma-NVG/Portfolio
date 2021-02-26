@@ -1159,6 +1159,14 @@ section.about .about-content .about-button {
     height: auto;
 }
 
+.skill-legend span{
+    padding: 0% 2%;
+}
+
+.skill-legend i{
+    color: #ecc071;
+}
+
 .skill-panel{
     display: grid;
     height: 100%;
@@ -1206,7 +1214,16 @@ section.about .about-content .about-button {
 
 .progress-item span {
     color: #eec165;
+    width:1em;
 }
+
+@media only screen and (max-device-width : 1024px){
+    .progress-item span {
+        width:0.7em;
+    }
+}
+
+
 
 .lang-detail{
     font-size: 0.80em;
