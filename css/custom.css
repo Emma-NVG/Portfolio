@@ -751,6 +751,16 @@ nav.fixed-top .nav-item .nav-link:before {
     width:7%;
 }
 
+@media (max-width: 992px){
+    nav.navbar .nav-item {
+        font-size: 1.1rem;
+        font-weight: 400;
+        padding: 0% 2% 3% 3%;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
 /*============ 4. Banner Section============*/
 .banner {
     width: 100%;
@@ -1046,6 +1056,7 @@ section.about .about-content .about-button {
     border-radius: 10px;
     border-color: white;
     transition: all 0.4s ease 0s;
+    box-shadow: 5px 5px 18px 2px lightgrey;
 }
 .education .card:not(.card-date):hover {
     color: white;
@@ -1161,6 +1172,10 @@ section.about .about-content .about-button {
 
 .skill-legend span{
     padding: 0% 2%;
+}
+
+.skill-legend span svg {
+    color: #ecc165;
 }
 
 .skill-legend i{
@@ -1337,6 +1352,7 @@ section.portfolio .portfolio-items .item .item-content:hover:before {
     transform: scale(1);
     opacity: 1;
 }
+
 
 section.portfolio .portfolio-items .item .item-content .item-overlay {
     position: absolute;
