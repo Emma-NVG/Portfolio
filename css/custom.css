@@ -626,6 +626,12 @@ blockquote {
     }
 }
 
+@media (max-width: 992px){
+    .preloader{
+        display:none;
+    }
+}
+
 /*============ 3. Navbar ============*/
 nav.navbar {
     position: absolute;
